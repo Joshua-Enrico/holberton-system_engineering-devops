@@ -1,1 +1,1 @@
-A list of scripts that will be use , will be here
+1:echo"current directory is `pwd`" print the absolute path name of the current working directory.
