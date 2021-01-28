@@ -12,5 +12,5 @@ resource(http://www.math.utah.edu/docs/info/sh-utils_8.html).
 3-New Owner : We use "chown" to changes ownership of a file, so we use "chown betty hello". source:
  https://superuser.com/questions/623159/changing-ownership-of-files-within-a-bash-script
 
-4-Empty! : We use ~~touch~~ to create a file, so we use ~~touch hello~~ to create a file called hello.
+4-Empty! : We use `touch` to create a file, so we use `touch hello` to create a file called hello.
 
