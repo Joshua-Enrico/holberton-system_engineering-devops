@@ -28,3 +28,6 @@ Result : `chmod ug+x,o+r hello`
 
 8-James Bond : Here we are going to apply permissions in a numerical way following this source:http://ftp.kh.edu.tw/Linux/Redhat/en_6.2/doc/gsg/s1-navigating-chmodnum.htm.
 So our command is goint to be `chmod 007 hello`.
+
+9-John Does : our result have to be like this `-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello`
+usin this resource https://chmod-calculator.com/. our line will be this:`chmod 753 hello`.
