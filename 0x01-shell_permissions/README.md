@@ -25,3 +25,6 @@ which permission : `x`execute,`r`read
 Result : `chmod ug+x,o+r hello`  
 
 7-Everybody! : Using the previous exercise as an example, the command we need is `chmod ugo+x hello`.
+
+8-James Bond : Here we are going to apply permissions in a numerical way following this source:http://ftp.kh.edu.tw/Linux/Redhat/en_6.2/doc/gsg/s1-navigating-chmodnum.htm.
+So our command is goint to be `chmod 007 hello`.
