@@ -40,3 +40,14 @@ our Result will be this `chmod --reference=olleh hello`.
 
 12-More directorie : Following this source https://stackoverflow.com/questions/5786326/how-to-create-a-directory-and-give-permission-in-single-command
 our command must be like this `mkdir -m 751 dir_holberton`.
+
+13-Change group : Command `chgrp` changes group owner, so our script must be like this : `chgrp holberton hello`.
+
+14-Owner and group : following this source https://superuser.com/questions/462141/how-to-chown-chmod-all-files-in-current-directory
+we can assume that our command must be like this 'chown betty:holberton *`.
+
+15-Symbolic links : following this source https://superuser.com/questions/68685/chown-is-not-changing-symbolic-link.
+our command must be like this `chown -h betty:holberton _hello`.
+
+16-If only : following this source https://www.thegeekstuff.com/2012/06/chown-examples/#:~:text=Using%20chown%20%E2%80%9C%E2%80%93from%E2%80%9D%20flag,owned%20by%20a%20particular%20owner.&text=In%20the%20example%20above%2C%20we,tmpfile'%20was%20root%2Ffriends.
+our command must `chown --from = guillaume betty hello`.
