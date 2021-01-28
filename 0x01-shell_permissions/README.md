@@ -35,3 +35,5 @@ usin this resource https://chmod-calculator.com/. our line will be this:`chmod 7
 10-LOOK in the mirror : Here we use a reference follwing this source:
 `https://www.tecmint.com/copy-file-permissions-and-ownership-to-another-file-in-linux/`
 our Result will be this `chmod --reference=olleh hello`. 
+
+11.Directories , the correct command is `chmod -R a+X .` source : https://stackoverflow.com/questions/3740152/how-to-change-permissions-for-a-folder-and-its-subfolders-files-in-one-step.
