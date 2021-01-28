@@ -24,3 +24,4 @@ to who: `u` User (owner),`g`group,`o`others
 which permission : `x`execute,`r`read
 Result : `chmod ug+x,o+r hello`  
 
+7-Everybody! : Using the previous exercise as an example, the command we need is `chmod ugo+x hello`.
