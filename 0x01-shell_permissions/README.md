@@ -50,4 +50,4 @@ we can assume that our command must be like this 'chown betty:holberton *`.
 our command must be like this `chown -h betty:holberton _hello`.
 
 16-If only : following this source https://www.thegeekstuff.com/2012/06/chown-examples/#:~:text=Using%20chown%20%E2%80%9C%E2%80%93from%E2%80%9D%20flag,owned%20by%20a%20particular%20owner.&text=In%20the%20example%20above%2C%20we,tmpfile'%20was%20root%2Ffriends.
-our command must `chown --from = guillaume betty hello`.
+our command must `chown --from=guillaume betty hello`.
