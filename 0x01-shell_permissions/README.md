@@ -37,3 +37,6 @@ usin this resource https://chmod-calculator.com/. our line will be this:`chmod 7
 our Result will be this `chmod --reference=olleh hello`. 
 
 11.Directories , the correct command is `chmod -R a+X .` source : https://stackoverflow.com/questions/3740152/how-to-change-permissions-for-a-folder-and-its-subfolders-files-in-one-step.
+
+12-More directorie : Following this source https://stackoverflow.com/questions/5786326/how-to-create-a-directory-and-give-permission-in-single-command
+our command must be like this `mkdir -m 751 dir_holberton`.
