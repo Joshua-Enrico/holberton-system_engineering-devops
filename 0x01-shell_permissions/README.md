@@ -14,3 +14,13 @@ resource(http://www.math.utah.edu/docs/info/sh-utils_8.html).
 
 4-Empty! : We use `touch` to create a file, so we use `touch hello` to create a file called hello.
 
+5-Execute : We use `chmod` to modify file access rights, `u` owner and `x` execute, so we write `chmod u+x hello` to 
+give execute permission to the owner of the file `hello`.
+
+6-Multiple permissions : Here we have to aplly multiple permissions so i have to lear how, here is a source 
+`https://kb.iu.edu/d/abdb`. 
+to give permission we use `chmod`
+to who: `u` User (owner),`g`group,`o`others
+which permission : `x`execute,`r`read
+Result : `chmod ug+x,o+r hello`  
+
