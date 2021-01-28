@@ -31,3 +31,7 @@ So our command is goint to be `chmod 007 hello`.
 
 9-John Does : our result have to be like this `-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello`
 usin this resource https://chmod-calculator.com/. our line will be this:`chmod 753 hello`.
+
+10-LOOK in the mirror : Here we use a reference follwing this source:
+`https://www.tecmint.com/copy-file-permissions-and-ownership-to-another-file-in-linux/`
+our Result will be this `chmod --reference=olleh hello`. 
