@@ -1,2 +1,2 @@
 #!/bin/bash
-Exercise 11: ls -la . .. /boot
+ls -la . .. /boot
