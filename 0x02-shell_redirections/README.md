@@ -19,3 +19,5 @@ This script will Display the last 10 lines of `/etc/passwd`file, `tail` does the
 5. I'd prefer the first ones actually: 
 This script will display the first 10 lines of `/etc/passwd`,
  `head` does the action we need, so we write `head /etc/passwd`. [Source](https://man7.org/linux/man-pages/man1/head.1.html).
+
+6. Line #2: This scprit will display the thirt line of `iacta` we write `head -3 | tail -1`,[Source](https://stackoverflow.com/questions/13832866/unix-show-the-second-line-of-the-file).
