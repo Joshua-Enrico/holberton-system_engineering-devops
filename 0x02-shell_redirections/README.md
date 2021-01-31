@@ -1,5 +1,5 @@
 0. Hello World: 
-This script will print "Hellow,World", `echo "Hello,wolrd"`.
+This script will print "Hellow,World", `echo "Hello, World"`.
 
 1. Confused smiley:
 This script will print a confused smile `"(Ôo)'`, We use `echo "\"(Ôo)'"`.
@@ -17,4 +17,5 @@ This script will Display the last 10 lines of `/etc/passwd`file, `tail` does the
 [Source](https://man7.org/linux/man-pages/man1/tail.1.html)
 
 5. I'd prefer the first ones actually: 
-This script will display the first 10 lines of `/etc/passwd`, `head` does the action we need, so we write `head /etc/passwd`. [Source](https://man7.org/linux/man-pages/man1/head.1.html).
+This script will display the first 10 lines of `/etc/passwd`,
+ `head` does the action we need, so we write `head /etc/passwd`. [Source](https://man7.org/linux/man-pages/man1/head.1.html).
