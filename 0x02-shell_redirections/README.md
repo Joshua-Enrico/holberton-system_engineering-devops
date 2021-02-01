@@ -51,3 +51,15 @@ This script will display the first 10 lines of `/etc/passwd`,
 18. Letters only please:Display all lines of the file /etc/ssh/sshd_config starting with a letter.
 Here we use `grep`command with its variant `-i` to ignore case distinctions in both the PATTERN and the input files, the result is 
 `grep -i ^[[:alpha:]] /etc/ssh/sshd_config`, [Source](https://unix.stackexchange.com/questions/539112/display-all-the-lines-in-grepfile-that-do-not-start-with-a-letter).
+
+19. A to Z:Replace all characters A and c from input to Z and e respectively.Here we use `tr`command, the reuslt is `tr Ac Ze`[Source](https://stackoverflow.com/questions/63879445/how-to-replace-all-characters-a-and-c-from-input-to-z-and-e-respectively).
+
+20. Without C, you would live in hiago: Create a script that removes all letters c and C from input.
+Here we use `tr`command with its variant `-d`to delete characters, the result is `tr -d cC`,[Source](https://www.explainshell.com/explain/1/tr).
+
+21. esreveR : Write a script that reverse its input. Here we use `rev`command, Result `rev`, [Source](https://www.geeksforgeeks.org/reverse-a-string-shell-programming/).
+
+22. DJ Cut Killer:Write a script that displays all users and their home directories, sorted by users.
+
+Based on the the /etc/passwd file. Here we use `cut` command and two of its variants `-d` and `-f` also to sort lines we use `sort`,
+the result is `cut -d : -f 1,6 /etc/passwd | sort, [Source](https://unix.stackexchange.com/questions/291450/i-need-to-find-all-users-home-directories-listed-using-grep-from-etc-passwd). 
