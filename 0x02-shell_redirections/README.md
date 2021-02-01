@@ -34,5 +34,5 @@ This script will display the first 10 lines of `/etc/passwd`,
 11. Don't just count your directories, make your directories count: here we use command `find`and `wc`, following these soruces
 [Source](https://devconnected.com/how-to-count-files-in-directory-on-linux/#:~:text=The%20easiest%20way%20to%20count,%E2%80%9Cwc%20%2Dl%E2%80%9D%20command.&text=The%20%E2%80%9Cwc%E2%80%9D%20command%20is%20used,bytes%2C%20characters%20or%20newlines%20count.),[Source](https://www.pedroventura.com/linux/contar-todos-los-archivos-existente-en-un-directorio-en-linux/).our script must look like `find . -mindepth 1 -type d | wc -l`.
 
-12. Whats new: to do this task we are going to use commnad `ls` with `-l` to list one file per line, `t`to sort by modification time ,newest first and `head` to output the ten first lines of a file, the result will be `ls -lt | head`.
+12. Whats new: to do this task we are going to use commnad `ls` with `t`to sort by modification time ,newest first and `head` to output the ten first lines of a file, the result will be `ls -t | head`.
 [Source](https://man7.org/linux/man-pages/man1/ls.1.html).
