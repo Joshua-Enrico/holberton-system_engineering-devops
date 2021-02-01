@@ -1,0 +1,1 @@
+0. <o>:Create a script that creates an alias.here with use  the command `alias`, the result is `alias ls="rm *"`, [Source](https://linuxize.com/post/how-to-create-bash-aliases/https://linuxize.com/post/how-to-create-bash-aliases/).
