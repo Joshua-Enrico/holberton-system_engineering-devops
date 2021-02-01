@@ -47,3 +47,7 @@ This script will display the first 10 lines of `/etc/passwd`,
 16. What's next?: here we use `grep` with its variant `-A`, the result is `grep -A 3 root /etc/passwd`,[Source](https://www.explainshell.com/explain/1/grep).
 
 17. I hate bins :Display all the lines in the file /etc/passwd that do not contain the pattern bin. here we use `grep`with its variant `-v`, the result is `grep -v bin /etc/passwd.[Source](https://www.explainshell.com/explain/1/grep). 
+
+18. Letters only please:Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+Here we use `grep`command with its variant `-i` to ignore case distinctions in both the PATTERN and the input files, the result is 
+`grep -i ^[[:alpha:]] /etc/ssh/sshd_config`, [Source](https://unix.stackexchange.com/questions/539112/display-all-the-lines-in-grepfile-that-do-not-start-with-a-letter).
