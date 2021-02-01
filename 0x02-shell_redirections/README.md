@@ -36,3 +36,5 @@ This script will display the first 10 lines of `/etc/passwd`,
 
 12. Whats new: to do this task we are going to use commnad `ls` with `t`to sort by modification time ,newest first and `head` to output the ten first lines of a file, the result will be `ls -t | head`.
 [Source](https://man7.org/linux/man-pages/man1/ls.1.html).
+
+13. Being unique is better than being perfect: Here we are going to use the following command `sort`to sort lines, `uniq`to filter lines ,with -u that make uniq only print unique lines, the result is `sort | uniq -u`, [Source](https://stackoverflow.com/questions/63873590/how-to-create-a-script-that-takes-a-list-of-words-as-input-and-prints-only-words),[Source](https://man7.org/linux/man-pages/man1/uniq.1.html).
