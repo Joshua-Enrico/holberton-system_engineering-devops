@@ -44,4 +44,28 @@ our sintaxys is `echo $((myvar**myvar))`, following this [Source](https://www.sh
 
 The number in base 2 is stored in the environment variable BINARY
 The script should display the number in base 10, followed by a new line
-following this [Source](https://serviceitdirect.com/hex-octal-and-binary-shell-conversions), the sintaxys is `echo $(("number"#$BINARY))then the result is echo "$((2#$BINARY))".
+following this [Source](https://serviceitdirect.com/hex-octal-and-binary-shell-conversions), the sintaxys is `echo $(("number"#$BINARY))`then the result is `echo $((2#$BINARY))`.
+
+12.Create a script that prints all possible combinations of two letters, except oo.
+
+Letters are lower cases, from a to z
+One combination per line
+The output should be alpha ordered, starting with aa
+Do not print oo
+Your script file should contain maximum 64 characters
+
+following this [Source](https://stackoverflow.com/questions/33177559/increment-a-letter-sequence-to-represent-a-whole-number-where-a-0-and-z-25), the result  will be `printf "%s\n" {a..z}{a..z} | grep -v "oo".
+
+13.Write a script that prints a number with two decimal places, followed by a new line.
+
+The number will be stored in the environment variable NUM.
+
+following this [Source](https://stackoverflow.com/questions/13632001/how-to-display-number-to-two-decimal-places-in-bash-function),
+the sintaxys is `printf "%0.2f\n"` and the environment variable `NUM`, the result is `printf "%.2f\n" $NUM`.
+
+14.Write a script that converts a number from base 10 to base 16.
+
+The number in base 10 is stored in the environment variable DECIMAL
+The script should display the number in base 16, followed by a new line
+[Source](https://unix.stackexchange.com/questions/65280/binary-to-hexadecimal-and-decimal-in-a-shell-script),
+Result is `printf "%x\n" $((10#$DECIMAL))`.
