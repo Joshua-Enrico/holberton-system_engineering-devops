@@ -27,3 +27,9 @@ This script will display the first 10 lines of `/etc/passwd`,
 8. Save current state of directory: We don have the file `ls_cwd_content`created so what we have to write is this `ls -la > ls_cwd_content`,[Source](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file).
 
 9. Duplicate last line: in this case the best way to duplicate last line is use `>>` we add the line that we locate with `tail`.
+
+10. No more javascript: this one but a hard one but following this example i was able to find a way to do the task
+[Source](https://www.explainshell.com/explain?cmd=find+.+-name+%27*-js%27+-type+f+-delete), our commnad is the following one `find . -name "*.js" -type f -delete`.
+
+11. Don't just count your directories, make your directories count: here we use command `find`and `wc`, following these soruces
+[Source](https://devconnected.com/how-to-count-files-in-directory-on-linux/#:~:text=The%20easiest%20way%20to%20count,%E2%80%9Cwc%20%2Dl%E2%80%9D%20command.&text=The%20%E2%80%9Cwc%E2%80%9D%20command%20is%20used,bytes%2C%20characters%20or%20newlines%20count.),[Source](https://www.pedroventura.com/linux/contar-todos-los-archivos-existente-en-un-directorio-en-linux/).our script must look like `find . -mindepth 1 -type d | wc -l`.
