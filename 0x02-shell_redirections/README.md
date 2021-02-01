@@ -43,3 +43,7 @@ This script will display the first 10 lines of `/etc/passwd`,
 
 15. Count that word: there are to ways to do this , using two commands( `grep` and `wc`to print the number of lines) or using
 `grep -c` , in this case we are going to choose the second way `grep -c bin /etc/passwd`.[Source](https://www.explainshell.com/explain/1/grep).
+
+16. What's next?: here we use `grep` with its variant `-A`, the result is `grep -A 3 root /etc/passwd`,[Source](https://www.explainshell.com/explain/1/grep).
+
+17. I hate bins :Display all the lines in the file /etc/passwd that do not contain the pattern bin. here we use `grep`with its variant `-v`, the result is `grep -v bin /etc/passwd.[Source](https://www.explainshell.com/explain/1/grep). 
