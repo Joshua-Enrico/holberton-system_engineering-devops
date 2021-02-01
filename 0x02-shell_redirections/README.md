@@ -24,3 +24,6 @@ This script will display the first 10 lines of `/etc/passwd`,
 
 7. It is a good file that cuts iron without making a noise `echo "Holberton School" > "\*\\\'\"Holberton School\"\'\\\*$\?\*\*\*\*\*:)"` do what we need.[Source](https://unix.stackexchange.com/questions/159672/how-to-create-a-simple-txt-text-file-using-terminal).
 
+8. Save current state of directory: We don have the file `ls_cwd_content`created so what we have to write is this `ls -la > ls_cwd_content`,[Source](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file).
+
+9. Duplicate last line: in this case the best way to duplicate last line is use `>>` we add the line that we locate with `tail`.
