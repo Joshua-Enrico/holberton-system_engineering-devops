@@ -21,3 +21,6 @@ This script will display the first 10 lines of `/etc/passwd`,
  `head` does the action we need, so we write `head /etc/passwd`. [Source](https://man7.org/linux/man-pages/man1/head.1.html).
 
 6. Line #2: This scprit will display the thirt line of `iacta` we write `head -3 | tail -1`,[Source](https://stackoverflow.com/questions/13832866/unix-show-the-second-line-of-the-file).
+
+7. It is a good file that cuts iron without making a noise `echo "Holberton School" > "\*\\\'\"Holberton School\"\'\\\*$\?\*\*\*\*\*:)"` do what we need.[Source](https://unix.stackexchange.com/questions/159672/how-to-create-a-simple-txt-text-file-using-terminal).
+
