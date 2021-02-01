@@ -38,3 +38,8 @@ This script will display the first 10 lines of `/etc/passwd`,
 [Source](https://man7.org/linux/man-pages/man1/ls.1.html).
 
 13. Being unique is better than being perfect: Here we are going to use the following command `sort`to sort lines, `uniq`to filter lines ,with -u that make uniq only print unique lines, the result is `sort | uniq -u`, [Source](https://stackoverflow.com/questions/63873590/how-to-create-a-script-that-takes-a-list-of-words-as-input-and-prints-only-words),[Source](https://man7.org/linux/man-pages/man1/uniq.1.html).
+
+14. It must be in that file: here we use command `grep`, result `grep -i root /etc/passwd`.[Source](https://www.explainshell.com/explain/1/grep).
+
+15. Count that word: there are to ways to do this , using two commands( `grep` and `wc`to print the number of lines) or using
+`grep -c` , in this case we are going to choose the second way `grep -c bin /etc/passwd`.[Source](https://www.explainshell.com/explain/1/grep).
