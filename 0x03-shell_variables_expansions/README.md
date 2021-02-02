@@ -67,5 +67,5 @@ the sintaxys is `printf "%0.2f\n"` and the environment variable `NUM`, the resul
 
 The number in base 10 is stored in the environment variable DECIMAL
 The script should display the number in base 16, followed by a new line
-[Source](https://unix.stackexchange.com/questions/65280/binary-to-hexadecimal-and-decimal-in-a-shell-script),
-Result is `printf "%x\n" $((10#$DECIMAL))`.
+[Source](https://stackoverflow.com/questions/16527113/how-to-convert-decimal-to-hex-in-bash/16527169),
+Result is `printf "%x\n" $DECIMAL`.
