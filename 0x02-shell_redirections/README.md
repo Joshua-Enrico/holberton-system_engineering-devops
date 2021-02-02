@@ -63,3 +63,8 @@ Here we use `tr`command with its variant `-d`to delete characters, the result is
 
 Based on the the /etc/passwd file. Here we use `cut` command and two of its variants `-d` and `-f` also to sort lines we use `sort`,
 the result is `cut -d : -f 1,6 /etc/passwd | sort, [Source](https://unix.stackexchange.com/questions/291450/i-need-to-find-all-users-home-directories-listed-using-grep-from-etc-passwd). 
+
+Hardes one by far:
+
+23. This script will find all empty files and directories including hidden files and directories in the current directory and all sub-directories and displays their names only
+
