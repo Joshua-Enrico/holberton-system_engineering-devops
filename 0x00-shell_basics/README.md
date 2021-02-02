@@ -43,8 +43,8 @@ here we use `rm`command to delete files and the sintaxys we use is `rm "file or 
 the result is `rm /tmp/holberton/betty`. 
 
 9.Delete the directory holberton that is in the /tmp directory.
-To delete a directory we use `mkdir`command with following sintaxys `mkdir "directory or path where is located`.
-the result is `mkdir /tmp/holberton`.
+To delete a directory we use `rmdir`command with following sintaxys `rmdir "directory or path where is located`.
+the result is `rmdir /tmp/holberton`.
 
 10.Write a script that changes the working directory to the previous one.
 Here we use `cd`command with its variant `-` to change directory to the previous directory you were in.
