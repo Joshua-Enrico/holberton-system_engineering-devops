@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# contend of the current directory
+#+ hello
+#+ hello
+
+for i in *;
+do
+    echo "$i" | cut -d'-' -f2
+done

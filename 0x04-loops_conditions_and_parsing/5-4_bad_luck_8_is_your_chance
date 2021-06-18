@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# loop from 1 to 10
+#+ "bad luck" 4th
+#+ "good luck" 8th
+#+ "Holberton School" for others
+
+COUNTER=1
+while [ "$COUNTER" -le 10 ]; do
+    if [ $COUNTER -eq 4 ]; then
+	echo "bad luck"
+    elif [ $COUNTER -eq 8 ]; then
+	echo "good luck"
+    else
+	echo "Holberton School"
+    fi
+    let COUNTER=COUNTER+1
+done
