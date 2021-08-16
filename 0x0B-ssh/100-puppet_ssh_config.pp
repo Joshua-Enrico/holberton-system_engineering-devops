@@ -6,13 +6,13 @@ fie { 'Conf file':
   path   => '/etc/ssh/ssh_config'
 }
 
-file_line { 'Idendity file':
+file_line { 'Declare identity file':
   ensure => 'present',
   path   => '/etc/ssh/ssh_config',
   line   => '  IdentityFile ~/.ssh/holberton'
 }
 
-file_line { 'Turn of authentication':
+file_line { 'Turn off passwd auth':
   ensure => 'present',
   path   => '/etc/ssh/ssh_config',
   line   => '  PasswordAuthentication no'
