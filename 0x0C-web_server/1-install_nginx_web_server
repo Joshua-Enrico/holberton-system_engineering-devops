@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Installs nginx and set a default messasge , port 80 as a default
+# Installs nginx and set a default messasge
+# port 80 as a default
 
 sudo apt-get update
 sudo apt-get -y install nginx
