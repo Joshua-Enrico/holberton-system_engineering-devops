@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# installs nginx and set a default messasge , port 80 as a default
+
+sudo apt-get update
+sudo apt-get -y install nginx
+echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
+sudo service nginx start
