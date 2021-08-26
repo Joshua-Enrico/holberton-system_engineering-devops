@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Fixing server
-sudo rm /etc/nginx/sites-enabled/default
-ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-sudo service nginx restart
-rm /run/nginx.pid
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx restart
+sudo pkill -SIGKILL -f "/usr/sbin/nginx"
